@@ -1,0 +1,30 @@
+
+        body {
+           background:lightcyan;
+        }
+        h1 {
+            color: #333;
+            font-family: 楷体;
+        }
+        p {
+            color: blue;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        div {
+           width: 60%;
+           margin: 0 auto;
+           color: bisque;
+           border-radius: 20px;
+           box-shadow: #666;
+           background: lightblue;
+           margin: 0 auto;
+        }
+        ul{
+            color: blue;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto;
+        }

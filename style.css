@@ -109,7 +109,7 @@ body {
            border-radius: 20px;
            background-color:white;
            justify-items: center;
-           height: 210vh;
+           height: 174vh;
         }
         ul{
             color: blue;
@@ -157,7 +157,7 @@ body {
 }
 .part1{
     width: 70vw;
-    height: 17vw;
+    height: 14vw;
     border: 3px solid black;
     border-radius: 40px;
     position: absolute;
@@ -169,22 +169,14 @@ body {
    
 
 }
-.pic2{
-    width: 17vw;
-    height: 18vw;
-    border-radius: 20px;
-    position: absolute;
-    left: 40vw;
-    top: 1vh;
-}
 .part2{
-     width: 70vw;
+     width: 15vw;
     height: 17vw;
     border: 3px solid black;
     border-radius: 20px;
     position: absolute;
     left: 13vw;
-    top: 112vh;
+    top: 105vh;
     display: flex;
     flex-direction: column;
      box-shadow: 10px 10px 10px lightgray;
@@ -196,13 +188,13 @@ body {
 
 }
 .part3{
-    width: 70vw;
-    height: 10vw;
+    width: 48vw;
+    height: 17vw;
     border: 3px solid black;
     border-radius: 20px;
     position: absolute;
-    left: 13vw;
-    top: 152vh;
+    left: 22vw;
+    top: -5vh;
     display: flex;
     flex-direction: column;
     box-shadow: 10px 10px 10px lightgray;
@@ -218,8 +210,8 @@ body {
     border: 3px solid black;
     border-radius: 20px;
     position: absolute;
-    left: 13vw;
-    top: 180vh;
+    left: -0.4vw;
+    top: 35vh;
     display: flex;
     flex-direction: column;
     box-shadow: 10px 10px 10px lightgray;
@@ -231,11 +223,13 @@ body {
     position: absolute;
     top: 45px;
     left: 5px;
+    
 }
 .selfintroduction{
     position: absolute;
-    top: 5vh;
-    left: 14vw;
+    top: 8vh;
+    left: 1vw;
+    font-size: 15px;
 }
 .skillsetail{
     position: absolute;
@@ -243,4 +237,23 @@ body {
     flex-direction: column;
     left: 1vw;
     top: 3vw;
+}
+.button{
+    position: absolute;
+    border: 2px solid gray;
+    border-radius: 40px;
+    font-size: 30px;
+    left: 67vw;
+    top: 10vh;
+    color: black;
+}
+.title{
+    text-align: center;
+}
+.newpage{
+    width:300px;
+    position:absolute;
+    left:50%;
+    color: lightcyan;
+    transform:translateX(-50%);
 }

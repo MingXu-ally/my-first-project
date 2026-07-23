@@ -251,6 +251,10 @@ body {
 }
 .title{
     text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    font-weight: 700;
 }
 .newpage{
     width:80vw;
@@ -262,14 +266,153 @@ body {
     transform:translateX(-50%);
 }
 .secondpage{
-    background-color: lightcyan;
+    background-color:rgb(220, 222, 222);
 }
- .el-header {
-    background-color: #B3C0D1;
-    color: #333;
-    line-height: 60px;
-  }
+.projectstable{
+    width: 80vw;
+    height: 100vh;
+    background-color: white;
+    border: 3px dotted black;
+    border-radius: 20px;
+    position: relative;
+    left: 10vw;
+    top: 5vh;
+}
+
+.slider{
+
+    width:800px;
+    height:400px;
+
+    margin:50px auto;
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:20px;
+
+}
+
+
+.slides{
+
+    width:100%;
+    height:100%;
+
+}
+
+
+.slide{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    display:none;
+      transition:0.5s ease;
+
+}
+
+
+
+.slide.active{
+
+    display:block;
+
+}
+
+.slider:hover .slide.active{
+
+    transform:scale(1.05);
+
+}
+
+/* 左右按钮 */
+
+.prev,
+.next{
+
+    position:absolute;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+
+    background:rgba(0,0,0,0.5);
+
+    color:white;
+
+    border:none;
+
+    font-size:30px;
+
+    padding:10px 15px;
+
+    cursor:pointer;
+
+    border-radius:50%;
+
+}
+
+
+.prev{
+
+    left:20px;
+
+}
+
+
+.next{
+
+    right:20px;
+
+}
+
+
+
+/* 小圆点 */
+
+
+.dots{
+
+    position:absolute;
+
+    bottom:20px;
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+
+
+.dot{
+
+    display:inline-block;
+
+    width:12px;
+
+    height:12px;
+
+    background:white;
+
+    border-radius:50%;
+
+    margin:5px;
+
+    cursor:pointer;
+
+}
+
+
+
+.dot.active{
+
+    background:#6c63ff;
+
+}
   
-  .el-aside {
-    color: #333;
-  }
